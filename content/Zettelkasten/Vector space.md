@@ -6,7 +6,7 @@ status: concept
 ---
 
 # Definition
-*Addition* and *scalar multiplication*:
+*Addition* and *scalar multiplication* [@strangIntroductionLinearAlgebra2016]:
 ![[vector-space-mov.png]]
 - An *addition* on a set $V$ is **a function** that assigns an element $u + v \in V$ to each pair of elements $u, v \in V$.
 - A *scalar multiplication* on a set $V$ is **a function** that assigns an element $\lambda v \in V$ to each $\lambda \in F$ and each $v \in V$.
@@ -168,6 +168,17 @@ A vector in $C$ can be expressed as
 $$
 z = \underbrace{(a + bi)}_{\text{scalar}} \cdot 1
 $$
+## Finite sets vs finite-dimensional vector space
+
+| sets                                                                                                             | vector spaces                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| $S$ is a finite set                                                                                              | $V$ is a finite-dimensional vector space                                                                        |
+| $\#S$                                                                                                            | $\dim V$                                                                                                        |
+| for subsets $S_1, S_2$ of $S$, the union $S_1 \cup S_2$ is the smallest subset of $S$ containing $S_1$ and $S_2$ | for subspaces $V_1, V_2$ of $V$, the sum $V_1 + V_2$ is the smallest subspace of $V$ containing $V_1$ and $V_2$ |
+| $\#(S_1 \cup S_2) = \#S_1 + \#S_2 - \#(S_1 \cap S_2)$                                                            | $\dim(V_1 + V_2) = \dim V_1 + \dim V_2 - \dim(V_1 \cap V_2)$                                                    |
+| $\#(S_1 \cup S_2) = \#S_1 + \#S_2 \iff S_1 \cap S_2 = \emptyset$                                                 | $\dim(V_1 + V_2) = \dim V_1 + \dim V_2 \iff V_1 \cap V_2 = \{0\}$                                               |
+| $S_1 \cup \cdots \cup S_m$ is a disjoint union $\iff \#(S_1 \cup \cdots \cup S_m) = \#S_1 + \cdots + \#S_m$      | $V_1 + \cdots + V_m$ is a direct sum $\iff \dim(V_1 + \cdots + V_m) = \dim V_1 + \cdots + \dim V_m$             |
+A comparison table from [@axlerLinearAlgebraDone2024] showing the analogy between sets and vector spaces.
 
 ---
 # References
