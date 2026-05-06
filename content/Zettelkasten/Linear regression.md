@@ -79,7 +79,7 @@ $$
 \hat{\beta} = \arg \min_\beta \text{RSS}(\beta)
 $$
 ### Minimizing the RSS numerically
-Consider the machine learning setting in the matrix form above. Then, we can write the *residual sum of squared* as
+Consider the machine learning setting above. Then, we can write the *residual sum of squared* as
 $$
 \text{RSS}(\beta) = \sum_i^n (y_i - x_i^\top b)^2 = (\mathbf{y} - \mathbf{X}\beta)^\top (\mathbf{y} - \mathbf{X} \beta)
 $$
