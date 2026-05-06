@@ -104,6 +104,7 @@ $$
 \hat{f}(x_0) = (1, x_0)^\top \hat{\beta}
 $$
 - $(1, x_0)$: Augmented vector.
+
 The fitted values (optimal point estimator) at all the training inputs are:
 $$
 \hat{\mathbf{y}} = \mathbf{X} \hat\beta = \mathbf{X} (\mathbf{X}^\top \mathbf{X})^{-1} \mathbf{X}^\top \mathbf{y}
