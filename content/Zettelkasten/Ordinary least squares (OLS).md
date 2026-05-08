@@ -109,7 +109,6 @@ $$
 \mathbf{X}^\top (\mathbf{y} - \mathbf{X} \beta) = 0
 $$
 # Properties of least-squares estimators
-https://www.youtube.com/watch?v=uXZk7LqlH7g
 Assumptions: uncorrelated and constant variance $\sigma^2$ of the observations $y_i$.
 The variance-covariance matrix of the least squares parameter estimates:
 $$
