@@ -2,6 +2,8 @@
 tags:
   - statistical-learning
   - regression-analysis
+  - linear-algebra
+  - statistics
 date_created: 2026-04-14 16:13
 status: concept
 ---
@@ -119,7 +121,5 @@ $$
 $$
 # Related Concepts
 [[Linear regression]]
-
----
 # References
 [^ref]
