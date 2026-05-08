@@ -94,7 +94,7 @@ $$
 
 //TODO: Gauss-Markov theorem
 # Geometric interpretation
-The columns of $\mathbf{X}$: $\mathbf{x}_0, \mathbf{x}_1, \dots, \mathbf{x}_p$ span a [[Subspace]] of $\mathbb{R}^N$ (the [[Column space]] of $\mathbf{X}$) with $\mathbf{x}_0 \equiv 1$; for simplicity, assume they span a plane (2D).
+The columns of $\mathbf{X}$: $\mathbf{x}_0, \mathbf{x}_1, \dots, \mathbf{x}_p$ span a subspace of $\mathbb{R}^N$ (the column space of $\mathbf{X}$) with $\mathbf{x}_0 \equiv 1$; for simplicity, assume they span a plane (2D).
 ![[linear-regression-least-sq-othorgonal_annotated.png]]
 The goal of OLS is to minimize the RSS
 $$
