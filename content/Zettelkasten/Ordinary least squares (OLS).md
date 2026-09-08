@@ -6,6 +6,7 @@ tags:
   - statistics
 date_created: 2026-04-14 16:13
 status: concept
+aliases: []
 ---
 
 # Definition
@@ -121,4 +122,4 @@ $$
 # Related Concepts
 [[Linear regression]]
 # References
-[^ref]
+

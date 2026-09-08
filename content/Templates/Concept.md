@@ -2,6 +2,7 @@
 tags: []
 date_created: {{date:YYYY-MM-DD}} {{time:HH:mm}}
 status: concept
+aliases: []
 ---
 
 # Definition

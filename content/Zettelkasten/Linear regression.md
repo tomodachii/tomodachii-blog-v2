@@ -6,6 +6,7 @@ tags:
   - linear-algebra
 date_created: 2026-05-05 23:13
 status: concept
+aliases: []
 ---
 
 # Definition
@@ -131,4 +132,3 @@ $$
 
 ---
 # References
-[^ref]

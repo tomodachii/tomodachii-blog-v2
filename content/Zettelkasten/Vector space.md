@@ -3,6 +3,7 @@ tags:
   - linear-algebra
 date_created: 2025-10-29 23:12
 status: concept
+aliases: []
 ---
 
 # Definition
@@ -182,7 +183,6 @@ A comparison table from [@axlerLinearAlgebraDone2024] showing the analogy betwee
 
 ---
 # References
-[^ref]
 
 https://web.stanford.edu/class/math51h/vectorspaces.pdf
 
